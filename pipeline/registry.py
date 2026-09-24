@@ -1,10 +1,5 @@
-"""Save and load models with their preprocessor and a metadata file.
+# Save and load models with their preprocessor and a metadata file.
 
-A saved model is a set of files in `model_dir` that share a name:
-    <name>.joblib or <name>.pt        the model
-    <name>_preprocessor.joblib        the fitted preprocessor, if given
-    <name>_metadata.json              when it was saved, what it is, your own notes
-"""
 import datetime
 import json
 import os
